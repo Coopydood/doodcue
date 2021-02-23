@@ -3,3 +3,32 @@
 ################################################################################
 
 /DoodCue/bin/Debug
+/DoodCue/obj/Debug
+/DoodCue/Resources
+/DoodCue/My Project
+/DoodCue/Welcome.vb
+/DoodCue/Welcome.resx
+/DoodCue/Welcome.Designer.vb
+/DoodCue/StopWarning.vb
+/DoodCue/StopWarning.resx
+/DoodCue/StopWarning.Designer.vb
+/DoodCue/SplashScreen1.vb
+/DoodCue/SplashScreen1.resx
+/DoodCue/SplashScreen1.Designer.vb
+/DoodCue/SetupWarning.vb
+/DoodCue/SetupWarning.resx
+/DoodCue/SetupWarning.Designer.vb
+/DoodCue/ScriptingOptions.Designer.vb
+/DoodCue/printDiag.vb
+/DoodCue/printDiag.resx
+/DoodCue/printDiag.Designer.vb
+/DoodCue/Editor.vb
+/DoodCue/Editor.resx
+/DoodCue/Editor.Designer.vb
+/DoodCue/doodcueicon.ico
+/DoodCue/CueMain1024.vb
+/DoodCue/CueMain1024.resx
+/DoodCue/CueMain1024.Designer.vb
+/DoodCue/ContPanel.vb
+/DoodCue/ContPanel.resx
+/DoodCue/ContPanel.Designer.vb
