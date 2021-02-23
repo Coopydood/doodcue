@@ -210,6 +210,27 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="doodcueicon.ico" />
+    <None Include="Resources\doodUPGS.png" />
+    <None Include="Resources\doodPrintButtonGS.png" />
+    <None Include="Resources\doodPrintButton.png" />
+    <None Include="Resources\doodWarning.png" />
+    <None Include="Resources\ticklarge.png" />
+    <None Include="Resources\doodUP.png" />
+    <None Include="Resources\doodSaveIcon.png" />
+    <None Include="Resources\doodFW.png" />
+    <None Include="Resources\doodSettings.png" />
+    <None Include="Resources\doodPrint.png" />
+    <None Include="Resources\doodNewFileDarker.png" />
+    <None Include="Resources\line1.png" />
+    <None Include="Resources\line.png" />
+    <None Include="Resources\headerTriaR.png" />
+    <None Include="Resources\headerTriaL.png" />
+    <None Include="Resources\cueLine1.png" />
+    <None Include="Resources\cueLine.png" />
+    <None Include="Resources\doodError.png" />
+    <None Include="Resources\doodback.png" />
+    <None Include="Resources\monitorsetup.png" />
+    <None Include="Resources\doodcueicon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
