@@ -38,3 +38,7 @@ D:\Users\Cooper\Documents\GitHub\doodcue\DoodCue\obj\Debug\DoodCue.vbproj.CoreCo
 D:\Users\Cooper\Documents\GitHub\doodcue\DoodCue\obj\Debug\DoodCue.exe
 D:\Users\Cooper\Documents\GitHub\doodcue\DoodCue\obj\Debug\DoodCue.xml
 D:\Users\Cooper\Documents\GitHub\doodcue\DoodCue\obj\Debug\DoodCue.pdb
+D:\Users\Cooper\Documents\GitHub\doodcue\DoodCue\bin\Debug\DoodCue.exe.manifest
+D:\Users\Cooper\Documents\GitHub\doodcue\DoodCue\bin\Debug\DoodCue.application
+D:\Users\Cooper\Documents\GitHub\doodcue\DoodCue\obj\Debug\DoodCue.exe.manifest
+D:\Users\Cooper\Documents\GitHub\doodcue\DoodCue\obj\Debug\DoodCue.application

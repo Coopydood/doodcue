@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DoodCue.exe" version="1.0.0.0" publicKeyToken="c4a68362231ab8fd" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="doodcueicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DoodCue" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DoodCue.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DoodCue.exe" size="35207640">
+      <assemblyIdentity name="DoodCue" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OY8wTZL9D4kWniuED2vWfNjW7RgWt3Pn2z/KQB8X+rc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DCSFILE.ico" size="134836">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t+Vgr995q6N+bXdbWQwu0fc4cRmQ3PcUmyh8kJWomqI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DoodCue.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="doodcueicon.ico" size="104670">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Pvi3zkiUn4do8pM/YdfRfUt0ksrY2s988cwAUamVPwE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <fileAssociation extension=".dcs" description="DoodCue Script" progid="doodcue.exe" defaultIcon="DCSFILE.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=COOPER-HPFSN\Cooper" issuerKeyHash="a7811ed78cfbbebc137ce6dbdcdbf7522c3fefe7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>q4YrX29aqblbA00unTM56Tv+mCbFDElFlwoYaNBvrqM=</DigestValue></Reference></SignedInfo><SignatureValue>tLPiaBh6AH4UYCty7nDTzfXWi/xglLFZExL6L/uciicfE3t1sDfnup/XZ7m0ja0IZH7lSwHLDbfiVheQA/q26l6fWMApOQwObHotbOmk5j97u4Wxa0FL/lrvRwUzPJWNwDbaVW3RVO6gQZ+eJLTLZu/VmktubaOomf1rCFIgqBU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vk+xcYFOpmnzwkDlVSOz5NV1PQGMAy4FMQ+A/yPLv4+vhKOr+YGkHMjvOvYXpXfYjdZWx7IA0MSnZq6u/yjfCjRlbZmEsQOfX3uYO9H7gLmnnUHfezxCZCgIQTrbL//2a6hib0eC9P4AkJev0qNqwiF985AOLnF5d2dQoc/Zpr0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a3ae6fd068180a9745490cc52698fe3be939339d2e4d035bb9a95a6f5f2b86ab" Description="" Url=""><as:assemblyIdentity name="DoodCue.exe" version="1.0.0.0" publicKeyToken="c4a68362231ab8fd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=COOPER-HPFSN\Cooper</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pfbivaY7Sl5Ds3350+10lUIqvJ4WkZi0iMn/qFgMEOA=</DigestValue></Reference></SignedInfo><SignatureValue>CmRP0Kb9zbLXuWY7q+kSi7UjbQ5ztaciGNm1gBn4hqa3cIN/W4zCvfvb0LL8hGt+7bB/lkWY/qRyDj0+0ij/0Bse8LNgqyZ8vYnPiYbX2s8YhlUp81BtojFW8CAyrpNhqHZ3zvnq/bYR65+OUodcXbT7grjbUocAPT2OgMjtt7M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vk+xcYFOpmnzwkDlVSOz5NV1PQGMAy4FMQ+A/yPLv4+vhKOr+YGkHMjvOvYXpXfYjdZWx7IA0MSnZq6u/yjfCjRlbZmEsQOfX3uYO9H7gLmnnUHfezxCZCgIQTrbL//2a6hib0eC9P4AkJev0qNqwiF985AOLnF5d2dQoc/Zpr0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQJZnFtREdX55B85DGM3/RfzANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAQwBPAE8AUABFAFIALQBIAFAARgBTAE4AXABDAG8AbwBwAGUAcjAeFw0yMTAyMjYwNjM1NDFaFw0yMjAyMjYxMjM1NDFaMDExLzAtBgNVBAMeJgBDAE8ATwBQAEUAUgAtAEgAUABGAFMATgBcAEMAbwBvAHAAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+T7FxgU6mafPCQOVVI7Pk1XU9AYwDLgUxD4D/I8u/j6+Eo6v5gaQcyO869held9iN1lbHsgDQxKdmrq7/KN8KNGVtmYSxA59fe5g70fuAuaedQd97PEJkKAhBOtsv//ZrqGJvR4L0/gCQl6/So2rCIX3zkA4ucXl3Z1Chz9mmvQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFt60vfkkFAotu9j9Bovduah2iTL5UFz2aAG9/AZFjXmEytNYhCncDS3Ce97UPWtIaK6I0bn4knIvAgO3YrgBDXRacpPBtKXFbRsXfQ90eMAajtYsXdapxG9Jkzf91PqyxxBwze78l9c0snyT/7zQHNZDxSUWUhhU4LfiKNJvsXo</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
