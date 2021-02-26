@@ -1,5 +1,5 @@
-# DoodCue
-Simple, free, and powerful teleprompter software. 
+# HyperCue
+Simple, free, and lightweight teleprompter software. 
 
 Description coming soon... probably...
 
